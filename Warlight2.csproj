@@ -43,7 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Bot\BotParser.cs" />
+    <Compile Include="src\Bot\BotStarter.cs" />
+    <Compile Include="src\Bot\BotState.cs" />
+    <Compile Include="src\Bot\IBot.cs" />
+    <Compile Include="src\Map\Map.cs" />
+    <Compile Include="src\Map\Region.cs" />
+    <Compile Include="src\Map\SuperRegion.cs" />
+    <Compile Include="src\Move\AttackTransferMove.cs" />
+    <Compile Include="src\Move\Move.cs" />
+    <Compile Include="src\Move\PlaceArmiesMove.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
